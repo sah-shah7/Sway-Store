@@ -1,0 +1,48 @@
+
+img {
+    object-fit: cover;
+}
+.page-wrapper{
+    display: flex;
+
+    /*vertically stack children*/
+    flex-direction: column;
+
+    /* expand to take full height of page */
+    /* min-height overrides both height & max-height */
+    min-height: 100vh; 
+
+  } 
+
+.res-img-width-only{
+    width: 100%;
+    max-height: 20%;
+    object-fit: cover;
+}
+.img-container-1{
+    overflow: hidden;
+}
+
+.pd-all-2{
+    padding: 2rem;
+}
+
+.heading-align-center{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.container-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.cards-container{
+    column-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

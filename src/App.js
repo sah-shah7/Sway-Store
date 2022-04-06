@@ -1,13 +1,10 @@
 import "./App.css";
 import {
   BrowserRouter as Router,
-  Switch,
   Route,
-  Routes,
-  Link
+  Routes
 } from "react-router-dom";
 import HomePage from '../src/pages/home/HomePage.js'
-import NavBar from "./components/NavBar/NavBar";
 import Mockman from 'mockman-js';
 
 

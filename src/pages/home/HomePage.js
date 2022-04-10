@@ -8,7 +8,7 @@ import './HomePage.css'
 const HomePage = () => {
   return (
     <div className="page-wrapper">
-      <NavBar />
+        <NavBar />
         <HomePageBody/>
         <Footer/>
     </div>

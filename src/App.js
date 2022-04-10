@@ -1,25 +1,14 @@
 import "./App.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes
-} from "react-router-dom";
-import HomePage from '../src/pages/home/HomePage.js'
-import Mockman from 'mockman-js';
+import AppRoutes from "./routes/AppRoutes";
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <main>
-        <Router>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/home" element={<HomePage />} />
-            <Route path="/mock" element={<Mockman />} />
-          </Routes>
-        </Router>
-      </main>
+     <AppRoutes/>
     </div>
   );
 }

@@ -1,0 +1,153 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 18rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-typ-1{
+    padding: 1rem 1rem;
+}
+
+.card-h-style{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.f-s-h5{
+    font-size: 1.25rem;
+}
+.f-s-h6{
+    font-size: 1rem;
+}
+
+.text-subtitle-color{
+    color: #6c757d;
+}
+
+.margin-bottom-typ-2{
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle{
+    margin-top: -0.25rem;
+    margin-bottom: 0;
+}
+
+.card-text-paragraph{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.close-btn{
+    cursor: pointer;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    font-size: 1.2rem;
+    padding: 1rem 1rem 0 0;
+    transform: translate(0%, -50%);
+    top: auto;
+}
+
+.card-img-vertical-container{
+    position: relative;
+}
+
+.text-overlay{
+    position: absolute;
+    left: 0;
+    width: fit-content;
+    z-index: 1;
+    padding: 2px 4px;
+}
+
+.badge-bs{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    background-color: salmon;
+    color:black;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: fit-content;
+    padding: 2px 4px;
+}
+
+.card-img-vertical-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.price-before{
+    text-decoration: line-through;
+}
+
+.bg-none{
+    background: none;
+    font-size: 1rem;
+}
+
+.card-horizontal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 48rem;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    flex-wrap: wrap;
+}
+.card-typ-2{
+    padding: 1rem;
+}
+.margin-left-auto{
+    margin-left: auto;
+}
+
+.card-horizontal-img img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.no-shadow{
+    box-shadow: none;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.card-buttons{
+    margin-top: 0.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card-info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.star-rating{
+    z-index: 1;
+    background-color: yellow;
+    color:black;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: fit-content;
+    padding: 2px 4px;
+}

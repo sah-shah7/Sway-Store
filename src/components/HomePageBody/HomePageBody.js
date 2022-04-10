@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import "../HomePageBody/HomePageBody.css";
 import axios from "axios";
 import CategoryCard from "../../components/CategoryCard/CategoryCard";
+import { Link} from "react-router-dom";
 
 
 const HomePageBody = () => {
-
     const [productCategories, setProductCategories] = useState([]);
+
     useEffect(() => {
         axios
             .get("/api/categories")
@@ -32,9 +33,9 @@ const HomePageBody = () => {
                                         Ready for these devices to Sway over your life? Click on the
                                         button below!
                                     </h2>
-                                    <a href="./pages/buynow.html">
+                                    <Link to={"/products"}>
                                         <button className="btn-1 is-primary">Browse Now</button>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
